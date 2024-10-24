@@ -2,7 +2,8 @@
   "name": "homes-json-data",
   "version": "1.0.0",
   "scripts": {
-    "start": "json-server --watch db.json --host 0.0.0.0 --port $PORT"
+    "build": "npm install",  
+    "start": "json-server --watch db.json --host 0.0.0.0 --port $PORT"  
   },
   "dependencies": {
     "json-server": "^0.16.3"
